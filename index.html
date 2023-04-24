@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--adding the link to icons(open and close menu)-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="gradient" id="gradient"></div>
+  <section class="header">
+            <nav>
+              <div class="nav-links" id="navLinks">         
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#skills">Skills</a></li>
+                      <li><a href="#projects">Projects</a></li>
+                      <li><a href="CV.html" target="_blank">Cv</a></li>
+                  </ul>
+                </div>
+            </nav>                 
+          
+  </section>
+
+  
+    <section class="intro">
+    <div class="line">
+      <div class="email"><a href="mailto:andrw.smth@outlook.com" target="_blank" >andrw.smth@outlook.com</a></div>
+      <div class="github" id="github"><a href="https://github.com/andrwsm" target="_blank" rel="noopener"><i class="fa fa-github-square github" id="github"></i></a></div>
+      <div class="codepen"><a href="https://codepen.io/andrewsmt" target="_blank" rel="noopener"><i class="fa fa-codepen"></i></a></div>
+        <div class="linkedin"><a href="https://www.linkedin.com/in/andrew-smith-ba44151a5/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></div>
+    </div> 
+     
+    
+      <div class="textbox">
+  <!--adaptation Hyperplexed / codepen & YT -->
+        <div class="text">
+          <h1 class="small">Hello, my name is</h1>
+          <h1 id="fancy" class="name" data-value="Andrew Smith">Andrew Smith</h1>
+          <h1 class="sub-name">I build things</h1>
+          <p>I am a software engineer based in the UK.</p>
+        </div><br><br>
+        <p>Contact me at <a href="mailto:andrw.smth@outlook.com">andrw.smth@outlook.com</a></p>
+      </div>
+    </section>
+
+  <section id="about" class="about-me">
+    <h1 class="fancy word" id="coder">About</h1>
+    <div class="row">
+      <div class="about-col">
+        <p>Hey! I am a self-taught software-engineer. My favourite thing about coding and programming is having the ability to 
+            turn an idea into a real project. I have been coding for over 6 months now, focusing mainly on Javascript, HTML, and CSS as it 
+            seemed a great way to kickstart my learning.</p>
+      </div>
+        <div class="about-col">
+        <div class="box">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>              
+        </div>
+      </div>   
+    </div>
+  </section>
+
+
+  <section id="skills" class="skills">
+    <h1>Skills</h1>
+    <section class="demo">
+<!--adaptation Justin Windle / codepen-->
+      <dl class="list nigiri">
+          <dt>Technical Skills</dt>
+          <dd>HTML5</dd>
+          <dd>Javascript</dd>
+          <dd>CSS</dd>
+          <dd>Node Js</dd>
+          <dd>React</dd>
+          <dd>Version Control</dd>
+          <dd>Cross-browser testing</dd>
+          
+      </dl>
+  
+      <dl class="list maki">
+          <dt>Tools</dt>
+          <dd>VS code</dd>
+          <dd>CodePen</dd>
+          <dd>Chrome Developer</dd>
+          <dd>Sass</dd>
+          <dd>Git/GitHub</dd>
+          <dd>Speed Curve</dd>
+          <dd>Font Awesome 4</dd>
+
+      </dl>
+  
+      <dl class="list sashimi">
+          <dt>Other Skills</dt>
+          <dd>Extremelly motivated</dd>
+          <dd>Attention to detail</dd>
+          <dd>Multitasling</dd>
+          <dd>Problem-solving</dd>
+          <dd>Logical thinking</dd>
+          <dd>Eye for design</dd>
+          <dd>Great communication</dd>
+      </dl>
+  </section>
+  </section>
+
+  <section id="projects" class="projects">
+    <h1>My Projects</h1>
+    
+    <div class="main">
+<!--*adaptation of Mahmudl H.Rabby / codepen -->
+      <ul class="cards">
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="images/bionic-reader.jpg" alt="img"></div>
+            <div class="card_content">
+              <h2 class="card_title">Bionic Reading Generator</h2>
+              <p class="card_text">This project allows an input and output text, where the first few letters, depending on how long the word is, are made bold so it is easier to read.</p>
+              <a href="https://andrwsm.github.io/Bionic-reader/" rel="noopener" target="_blank"><button class="btn card_btn">Live Demo</button></a>
+              <a href="https://github.com/andrwsm/Bionic-reader" rel="noopener" target="_blank"><button class="btn card_btn">Source code</button></a>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="images/snake-ss.jpg" alt="img"></div>
+            <div class="card_content">
+              <h2 class="card_title">Snake Game</h2>
+              <p class="card_text">A small snake game with some fun colour changes when the snake gets bigger</p>
+              <a href="https://andrwsm.github.io/snake-game/" rel="noopener" target="_blank"><button class="btn card_btn">Live Demo</button></a>
+              <a href="https://github.com/andrwsm/snake-game" rel="noopener" target="_blank"><button class="btn card_btn">Source code</button></a>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="images/website-home-page.jpg" alt="img"></div>
+            <div class="card_content">
+              <h2 class="card_title">Star Wars community style website</h2>
+              <p class="card_text">This was my first website that I created from scratch. It's not perfect but I think it shows a lot of progression.</p>
+              <a href="https://andrwsm.github.io/andrwsm-github.io/" rel="noopener" target="_blank"><button class="btn card_btn">Live Demo</button></a>
+              <a href="https://github.com/andrwsm/andrwsm-github.io" rel="noopener" target="_blank"><button class="btn card_btn">Source code</button></a>
+            </div>
+          </div>
+        </li>
+<!--
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="https://picsum.photos/500/300/?image=14" alt="img"></div>
+            <div class="card_content">
+              <h2 class="card_title">Card Grid Layout</h2>
+              <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+              <button class="btn card_btn">Live Demo</button>
+              <button class="btn card_btn">Source code</button>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="https://picsum.photos/500/300/?image=17" alt="img"></div>
+            <div class="card_content">
+              <h2 class="card_title">Card Grid Layout</h2>
+              <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+              <button class="btn card_btn">Live Demo</button>
+              <button class="btn card_btn">Source code</button>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="https://picsum.photos/500/300/?image=2" alt="img"></div>
+            <div class="card_content">
+              <h2 class="card_title">Card Grid Layout</h2>
+              <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+              <button class="btn card_btn">Live Demo</button>
+              <button class="btn card_btn">Source code</button>
+            </div>
+          </div>
+        </li>
+-->
+      </ul>
+    </div>
+  </section>
+  
+
+
+<script> // javascript to open and close menu using the onclick event defined in the fa line
+        let navLinks = document.getElementById('navLinks');
+        function showMenu(){
+          navLinks.style.right = '0';
+        }
+        function hideMenu(){
+          navLinks.style.right = '-200px';
+        }
+  
+        document.getElementById("fancy").onmouseover = event => {
+  let iterations = 0;
+  
+  const interval = setInterval(() => {
+  event.target.innerText = event.target.innerText.split("").map((letter, index) => {
+    if(index < iterations) {
+      return event.target.dataset.value[index];
+    }
+    
+    return letters[Math.floor(Math.random() * 26)]}).join("");
+    
+    if(iterations >= event.target.dataset.value.length) clearInterval(interval);
+    iterations += 1 / 5;
+}, 30);
+}
+  const letters = "ABCDEFGHIJKLMNOPQRLTUVWXYZ"
+
+
+  const rand = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+
+const enhance = id => {
+  const element = document.getElementById(id),
+        text = element.innerText.split(""); 
+  element.innerText = ""; 
+  text.forEach((value, index) => {
+    const outer = document.createElement("span");   
+    outer.className = "outer";   
+    const inner = document.createElement("span");   
+    inner.className = "inner";    
+    inner.style.animationDelay = `${rand(-5000, 0)}ms`;   
+    const letter = document.createElement("span");   
+    letter.className = "letter";    
+    letter.innerText = value;    
+    letter.style.animationDelay = `${index * 1000 }ms`;   
+    inner.appendChild(letter);       
+    outer.appendChild(inner);        
+    element.appendChild(outer);
+  });
+}
+
+enhance("coder")
+
+
+/*background gradient codepen */ 
+var colors = new Array(
+  [62,35,255],
+  [60,255,60],
+  [255,35,98],
+  [45,175,230],
+  [255,0,255],
+  [255,128,0]);
+
+var step = 0;
+//color table indices for: 
+// current color left
+// next color left
+// current color right
+// next color right
+var colorIndices = [0,1,2,3];
+
+//transition speed
+var gradientSpeed = 0.002;
+
+function updateGradient()
+{
+  
+  if ( $===undefined ) return;
+  
+var c0_0 = colors[colorIndices[0]];
+var c0_1 = colors[colorIndices[1]];
+var c1_0 = colors[colorIndices[2]];
+var c1_1 = colors[colorIndices[3]];
+
+var istep = 1 - step;
+var r1 = Math.round(istep * c0_0[0] + step * c0_1[0]);
+var g1 = Math.round(istep * c0_0[1] + step * c0_1[1]);
+var b1 = Math.round(istep * c0_0[2] + step * c0_1[2]);
+var color1 = "rgb("+r1+","+g1+","+b1+")";
+
+var r2 = Math.round(istep * c1_0[0] + step * c1_1[0]);
+var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
+var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
+var color2 = "rgb("+r2+","+g2+","+b2+")";
+
+ $('#gradient').css({
+   background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
+    background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+  
+  step += gradientSpeed;
+  if ( step >= 1 )
+  {
+    step %= 1;
+    colorIndices[0] = colorIndices[1];
+    colorIndices[2] = colorIndices[3];
+    
+    //pick two new target color indices
+    //do not pick the same as the current one
+    colorIndices[1] = ( colorIndices[1] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
+    colorIndices[3] = ( colorIndices[3] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
+    
+  }
+}
+
+setInterval(updateGradient,10);
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+</body>
+</html>
